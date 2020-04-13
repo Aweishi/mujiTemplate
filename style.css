@@ -126,13 +126,16 @@
 	padding: 5px 0;
 }
 .num{
-	/*transform: rotate(90deg);*/
 	font-size: 60px;
 	color: #F0F0F0;
+}
+.num h2{
+	transform: rotate(90deg);
 }
 
 .btn{
 	margin-right: 10px;
+
 }
 
 
@@ -149,8 +152,12 @@
 	padding: 5px 20px;
 	border: 1px solid #231815;
 	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.btngroup a:after{
+.btn a:after{
+	margin-left: 5px;
 	content: '';
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
